@@ -14,18 +14,30 @@ Lets say you have a CSV like this located at `./my.csv`:
 
 | Group               |  Polyline                 |  Data              |
 |---------------------|---------------------------|--------------------|
-| Yonge-Dundas Square |  _omiG``ocNw@gFw@Jc@~BRlC |  Main              |
-| City Hall           |  w_miGbdocN~DmAx@lG}DhA   |  Old City Hall     |
-| City Hall           |  icmiGpzocN{@wGtF_BEjH    |  Toronto City Hall | 
+| Yonge-Dundas-Square |  _omiG``ocNw@gFw@Jc@~BRlC |  Main              |
+| City-Hall           |  w_miGbdocN~DmAx@lG}DhA   |  Old City Hall     |
+| City-Hall           |  icmiGpzocN{@wGtF_BEjH    |  Toronto City Hall |
   
 
 You can run the command:
 
 ```bash
-$ polyline-gp -i ./my.csv
+$ polyline-gp -i ./my.csv -o ./some/path
 ```
 
-This would create an output folder in your current directory with the formed geojson/kml files inside. Any extra columns would be added as properties to the GIS file.
+This would create an `output` folder in `./some/path` with the formed geojson/kml files inside. Any extra columns would be added as properties to the GIS file.
+
+output
+  |
+  L - City-Hall
+  |      |
+  |      L - City-Hall.geojson
+  |      L - City-Hall.kml
+  |
+  L - Yonge-Dundas-Square
+         |
+         L - Yonge-Dundas-Square.geojson
+         L - Yonge-Dundas-Square.kml
 
 You can change the column names that polyline-gp looks for with the `--group` and `--polyline` arguments
 
