@@ -57,3 +57,7 @@ You can change the column names that polyline-gp looks for with the `--group` an
 --group       (-g)    # The column to group the csv file by (Default: "Group")
 --polyline    (-p)    # The column that the polyline exists in (Default: "Polyline")
 ```
+
+--output,-o),The folder that you want your output to go (Default: "./")
+--group,-g),The column to group the csv file by (Default: "Group")
+--polyline,-p),The column that the polyline exists in (Default: "Polyline")
