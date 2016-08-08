@@ -1,13 +1,14 @@
 {
   "name": "polyline-gp",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "This module allows one to extract geojson & kml from a csv file grouped with polyline data.",
-  "main": "index.js",
+  "main": "./index.js",
+  "bin": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jibestream",
+  "license": "MIT",
   "dependencies": {
     "csvtojson": "1.0.0",
     "fs-extra": "0.30.0",
@@ -15,5 +16,21 @@
     "minimist": "1.2.0",
     "polyline": "0.2.0",
     "tokml": "0.4.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jibestream/polyline-gp.git"
+  },
+  "keywords": [
+    "polyline",
+    "conversion",
+    "gis",
+    "geojson",
+    "kml"
+  ],
+  "bugs": {
+    "url": "https://github.com/Jibestream/polyline-gp/issues"
+  },
+  "homepage": "https://github.com/Jibestream/polyline-gp#readme"
 }
