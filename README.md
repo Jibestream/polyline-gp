@@ -51,13 +51,10 @@ You can change the column names that polyline-gp looks for with the `--group` an
 
 ### Arguments
 
-```bash
---input       (-i)    # [Required] The file location of the csv to parse
---output      (-o)    # The folder that you want your output to go (Default: "./")
---group       (-g)    # The column to group the csv file by (Default: "Group")
---polyline    (-p)    # The column that the polyline exists in (Default: "Polyline")
-```
+| Argument   |  Shorthand |  Description                                                 |
+|------------|------------|--------------------------------------------------------------|
+| --input    | -i         | [Required] The file location of the csv to parse             |
+| --output   | -o         | The folder that you want your output to go (Default: "./")   |
+| --group    | -g         | The column to group the csv file by (Default: "Group")       |
+| --polyline | -p         | The column that the polyline exists in (Default: "Polyline") |
 
---output,-o),The folder that you want your output to go (Default: "./")
---group,-g),The column to group the csv file by (Default: "Group")
---polyline,-p),The column that the polyline exists in (Default: "Polyline")
