@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const m = require('minimist')
 const pgp = require('./src/pgp')
 

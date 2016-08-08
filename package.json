@@ -32,5 +32,9 @@
   "bugs": {
     "url": "https://github.com/Jibestream/polyline-gp/issues"
   },
-  "homepage": "https://github.com/Jibestream/polyline-gp#readme"
+  "homepage": "https://github.com/Jibestream/polyline-gp#readme",
+  "engines" : {
+    "node" : ">=6.2.1"
+  },
+  "engineStrict" : true
 }
