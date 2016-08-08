@@ -2,7 +2,7 @@
 
 This module allows one to extract geojson & kml from a csv file grouped with polyline data.
 
-*Requires node.js v6.2.1*
+> *Requires node.js v6.2.1*
 
 ## Usage:
 
@@ -32,7 +32,7 @@ You can change the column names that polyline-gp looks for with the `--group` an
 
 ### Arguments
 
-```
+```bash
 --input       # [Required] The file location of the csv to parse
 --output      # The folder that you want your output to go (Default: "./")
 --group       # The column to group the csv file by (Default: "Group")
