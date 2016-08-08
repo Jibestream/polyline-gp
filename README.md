@@ -1,14 +1,14 @@
 # polyline-group-parser
 
-# Installation
+This module allows one to extract geojson & kml from a csv file grouped with polyline data.
+
+## Installation
+
+> *Requires node.js v6.2.1*
 
 ```
 npm install polyline-gp -g
 ```
-
-This module allows one to extract geojson & kml from a csv file grouped with polyline data.
-
-> *Requires node.js v6.2.1*
 
 ## Usage:
 
