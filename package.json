@@ -1,6 +1,6 @@
 {
   "name": "polyline-gp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This module allows one to extract geojson & kml from a csv file grouped with polyline data.",
   "main": "./index.js",
   "bin": "./index.js",
