@@ -12,12 +12,11 @@ $ polyline-gp --input /file/to.csv --output /file/to/output/folder --group "Grou
 
 Lets say you have a CSV like this located at `./my.csv`:
 
-|                                                     |
-|-----------------------------------------------------|
-| Group, Polyline, Data                               |
-| Yonge-Dundas Square, _omiG``ocNw@gFw@Jc@~BRlC, Main |
-| City Hall, w_miGbdocN~DmAx@lG}DhA, Old City Hall    |
-| City Hall, icmiGpzocN{@wGtF_BEjH, Toronto City Hall |
+| Group               |  Polyline                 |  Data              |
+|---------------------|---------------------------|--------------------|
+| Yonge-Dundas Square |  _omiG``ocNw@gFw@Jc@~BRlC |  Main              |
+| City Hall           |  w_miGbdocN~DmAx@lG}DhA   |  Old City Hall     |
+| City Hall           |  icmiGpzocN{@wGtF_BEjH    |  Toronto City Hall | 
   
 
 You can run the command:
