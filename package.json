@@ -5,7 +5,7 @@
   "main": "./index.js",
   "bin": "./index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha ./tests"
   },
   "author": "Jibestream",
   "license": "MIT",
@@ -14,10 +14,13 @@
     "fs-extra": "0.30.0",
     "lodash": "4.13.1",
     "minimist": "1.2.0",
+    "mocha": "3.0.2",
     "polyline": "0.2.0",
     "tokml": "0.4.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "xml2js": "0.4.17"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jibestream/polyline-gp.git"
@@ -33,8 +36,8 @@
     "url": "https://github.com/Jibestream/polyline-gp/issues"
   },
   "homepage": "https://github.com/Jibestream/polyline-gp#readme",
-  "engines" : {
-    "node" : ">=6.2.1"
+  "engines": {
+    "node": ">=6.2.1"
   },
-  "engineStrict" : true
+  "engineStrict": true
 }
